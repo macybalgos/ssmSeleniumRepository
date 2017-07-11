@@ -33,7 +33,7 @@ public class Login {
 	 driver.get(baseUrl + "satellite/user/login");
 	 driver.findElement(By.xpath("//button[@type='submit']")).click();
 	 driver.findElement(By.id("username")).clear();
-	 driver.findElement(By.id("username")).sendKeys("rosbel.clc@gmail.com");
+	 driver.findElement(By.id("username")).sendKeys("sample@gmail.com");
 	 driver.findElement(By.id("password")).clear();
 	 driver.findElement(By.id("password")).sendKeys("admin1");
    	 driver.findElement(By.xpath("//button[@type='submit']")).click();
